@@ -1229,6 +1229,82 @@ html { scroll-behavior: smooth; }
 </div>
 
 <!-- ================================================================ -->
+<!--  📱 スマホで使う裏技                                               -->
+<!-- ================================================================ -->
+<div class="section-title"><span class="emoji">📱</span>スマホで使う裏技</div>
+<div class="section-desc">パソコンがなくてもClaude Codeが使えちゃう方法でち</div>
+
+<div class="card">
+  <div class="card-header" onclick="toggle(this)">
+    <div class="card-icon bg-pink">🤫</div>
+    <div class="card-title">スマホだけでClaude Codeを使う方法</div>
+    <span class="card-arrow">▼</span>
+  </div>
+  <div class="card-body">
+    <p>
+      実はClaude Codeは<strong>スマホだけ</strong>でも使えるでち！
+      パソコンがなくても、GitHubとClaude（ブラウザ版）があればOKだよ。
+    </p>
+    <p style="margin-top:10px;font-weight:700;">やり方はこう：</p>
+    <ul>
+      <li><strong>ステップ1</strong> ─ スマホで<strong>GitHub</strong>にログインする</li>
+      <li><strong>ステップ2</strong> ─ 「<strong>NEW</strong>」ボタンを押して、<strong>Create a new repository</strong>で空っぽのリポジトリ（＝プロジェクトの保存場所）を作る</li>
+      <li><strong>ステップ3</strong> ─ Claudeのサイトにある「<strong>コード</strong>」という場所を押して、<strong>Claude Code</strong>を開く</li>
+      <li><strong>ステップ4</strong> ─ 「<strong>新規セッション</strong>」を押す</li>
+      <li><strong>ステップ5</strong> ─ <strong>GitHubの猫ちゃんマーク</strong>があるので押して、さっき作った空っぽのリポジトリを選択する</li>
+      <li><strong>ステップ6</strong> ─ あとは普通にClaude Codeとおしゃべりしたり、指示を出したりするだけ！</li>
+      <li><strong>ステップ7</strong> ─ リポジトリの設定でGitHub Pagesを<strong>公開（Public）</strong>にすれば、そのままWebサイトのリンクになるよ</li>
+    </ul>
+    <p style="margin-top:10px;">
+      つまり<strong>スマホ → GitHub → Claude Code → Webサイト完成</strong>まで全部スマホだけでできるでち！
+    </p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header" onclick="toggle(this)">
+    <div class="card-icon bg-yellow">✨</div>
+    <div class="card-title">スマホ活用のコツ</div>
+    <span class="card-arrow">▼</span>
+  </div>
+  <div class="card-body">
+    <p style="font-weight:700;">サムネイル画像を自動で作らせる</p>
+    <p>
+      リンクをDiscordやTwitterに貼ったとき、サムネイル画像（プレビュー画像）が出ると見栄えがいいよね。
+      こんなふうに頼めばAIが勝手に作ってくれるでち：
+    </p>
+    <p style="margin-top:6px;padding:10px 14px;background:var(--baby-blue-pale);border-radius:var(--radius-sm);font-size:13px;line-height:1.7;">
+      「リンクをコピーするとリンクだけで出てくるでち。他のリンクはDiscordとかに貼ったらサムネ画像が出てくるでち。サムネ画像…憧れるでち。対策してでち」
+    </p>
+    <p style="margin-top:6px;">
+      → OGP（Open Graph Protocol）というサムネ用の設定をAIが自動で追加してくれるよ！
+    </p>
+
+    <p style="margin-top:16px;font-weight:700;">データを保存させる（リロードしても消えない）</p>
+    <p>
+      Webアプリを作るとき、こう伝えるとデータが残るようになるでち：
+    </p>
+    <ul>
+      <li>「<strong>データはlocalStorageに保存して、リロードしても消えないようにして</strong>」</li>
+      <li>「<strong>データの保存にはIndexedDBを使っていいよ</strong>」</li>
+    </ul>
+    <p style="margin-top:6px;">
+      こうすると、Safariでページを開いたあと更新ボタンを押してもデータが消えなくなるでち。
+    </p>
+    <p style="margin-top:4px;font-size:12.5px;color:var(--text-light);">
+      ※ プライベートブラウズ（シークレットモード）だとブラウザを閉じたときに消えることがあるよ
+    </p>
+
+    <div class="cost-note">
+      <strong>お金に注意！</strong> Claude Codeを使うときは<strong>1Mモデル（100万トークンモデル）を選択しないように</strong>気をつけて！
+      200kトークンを超えるとサブスク枠じゃない追加料金が発生するでち。<br>
+      スマホの場合は設定の「<strong>追加使用量</strong>」のチェックを<strong>外しておく</strong>のが安全だよ。
+      これで意図しない課金を防げるでち。
+    </div>
+  </div>
+</div>
+
+<!-- ================================================================ -->
 <!--  はじめてのチェックリスト                                          -->
 <!-- ================================================================ -->
 <div class="section-title"><span class="emoji">✅</span>はじめてのチェックリスト</div>
